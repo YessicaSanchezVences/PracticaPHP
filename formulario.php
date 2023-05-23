@@ -24,7 +24,7 @@
                 
                 // Mensaje de que se ha creado correctamente y si no, que existe un error y se debe repetir el proceso.
                 if ($bd->query($sql) === TRUE) {
-                    echo "<p> Dormulario enviado con exito:</p>";
+                    echo "<p> Formulario enviado con exito:</p>";
                     echo "<p>Nombre: $Nombre</p>";
                     echo "<p>Apellido: $Apellido</p>";
                     echo "<p>Email: $Email</p>";
